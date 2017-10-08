@@ -1,7 +1,7 @@
 {
   "name": "redeux",
   "version": "1.0.0",
-  "description": "",
+  "description": "redux w/out the training wheels",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "Tyler Reitz <tdreitz@gmail.com>",
   "license": "ISC",
+  "repository": "git@github.com:tyler-reitz/redeux.git",
   "devDependencies": {
     "neutrino": "^6.2.0",
     "neutrino-preset-react": "^6.2.0"
