@@ -4,18 +4,24 @@
   "description": "redux w/out the training wheels",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "neutrino start"
   },
   "keywords": [],
   "author": "Tyler Reitz <tdreitz@gmail.com>",
   "license": "ISC",
   "repository": "git@github.com:tyler-reitz/redeux.git",
   "devDependencies": {
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "neutrino": "^6.2.0",
     "neutrino-preset-react": "^6.2.0"
   },
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "uuid": "^3.0.1"
   }
 }
